@@ -85,7 +85,7 @@ export default async function ShowPage({
         {/* Banner de Apresentação */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* Capa */}
-          <div className="relative aspect-[2/3] w-full overflow-hidden rounded-2xl border border-zinc-800 shadow-2xl bg-zinc-900">
+          <div className="relative aspect-2/3 w-full overflow-hidden rounded-2xl border border-zinc-800 shadow-2xl bg-zinc-900">
             {show.image?.original || show.image?.medium ? (
               <Image
                 src={show.image.original || show.image.medium}

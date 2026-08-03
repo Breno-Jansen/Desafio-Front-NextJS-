@@ -28,7 +28,7 @@ export default function Loading() {
               className="bg-zinc-900/40 border border-zinc-800 rounded-xl overflow-hidden p-4 flex flex-col gap-3 animate-pulse"
             >
               {/* Poster Placeholder */}
-              <div className="aspect-[2/3] w-full bg-zinc-800 rounded-lg" />
+              <div className="aspect-2/3 w-full bg-zinc-800 rounded-lg" />
 
               {/* Título Placeholder */}
               <div className="h-4 bg-zinc-800 rounded w-3/4 mt-1" />

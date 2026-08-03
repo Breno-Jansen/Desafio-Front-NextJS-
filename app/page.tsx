@@ -56,7 +56,7 @@ export default async function Home() {
         {/* Hero Section */}
         <section className="relative overflow-hidden border-b border-zinc-800 py-24 sm:py-32">
           {/* Efeito de brilho de fundo */}
-          <div className="absolute top-1/2 left-1/2 -z-10 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-600/20 blur-[120px]" />
+          <div className="absolute top-1/2 left-1/2 -z-10 h-100 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-600/20 blur-[120px]" />
 
           <div className="mx-auto max-w-4xl px-6 text-center">
             <span className="inline-block rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-purple-400">
@@ -65,7 +65,7 @@ export default async function Home() {
 
             <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-white sm:text-6xl">
               Descubra suas próximas{" "}
-              <span className="bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
                 séries e produções
               </span>{" "}
               favoritas

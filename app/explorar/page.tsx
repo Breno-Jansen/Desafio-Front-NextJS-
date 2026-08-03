@@ -91,7 +91,7 @@ export default function Explorar() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {[...Array(10)].map((_, i) => (
               <div key={i} className="animate-pulse">
-                <div className="bg-zinc-800 aspect-[2/3] rounded-xl mb-3"></div>
+                <div className="bg-zinc-800 aspect-2/3 rounded-xl mb-3"></div>
                 <div className="h-4 bg-zinc-800 rounded w-3/4 mb-2"></div>
                 <div className="h-3 bg-zinc-800 rounded w-1/2"></div>
               </div>
@@ -105,7 +105,7 @@ export default function Explorar() {
                 className="group bg-zinc-900/40 border border-zinc-800 rounded-xl overflow-hidden hover:border-purple-500/50 transition-all hover:shadow-2xl hover:shadow-purple-500/10 flex flex-col"
               >
                 {/* Poster com Overlay de Nota */}
-                <div className="relative aspect-[2/3] w-full overflow-hidden">
+                <div className="relative aspect-2/3 w-full overflow-hidden">
                   {show.image?.medium ? (
                     <Image
                       src={show.image.medium}
