@@ -1,5 +1,6 @@
 # Desafio-Front-NextJS-
 ### Breno Jansen
+## Como rodar
 Para utilizar a aplicação, abra o terminal, entre na pasta correta (cd Desafio-Front-NextJS-) e rode o comando:
 npm run dev
 Se não abrir baixe as dependências requisitadas após o comando.
